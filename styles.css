@@ -123,7 +123,8 @@ body {
     margin-top: -10px;
 
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -131,18 +132,81 @@ body {
     margin-bottom: 100px;
 }
 
-.container h2{
+.container h2 {
     text-align: center;
     font-size: 70px;
     line-height: 2px;
 }
 
-.list{
-float: right;
+.list {
+    float: right;
     font-size: 30px;
     line-height: 100px;
-    padding: 0px 200px 40px 0px ;
+    padding: 0px 500px 0px 500px;
     background-color: white;
     border-left: solid;
     border-right: solid;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    font-size: 40px;
+}
+
+#fname,
+#lname {
+    width: 300px;
+    height: 30px;
+
+}
+
+
+
+.form fieldset {
+    display: grid;
+    place-items: center;
+    padding: 20px 200px 30px 200px;
+
+}
+
+
+
+.test input{
+
+    width: 30px;
+    height: 30px;
+
+}
+
+.test label{
+float: left;
+width: 100px;
+
+}
+
+.test2{
+    /* background-color: red; */
+   display: inline;
+   justify-content: center;
+   align-items: center;
+   margin-left: 40px;
+}
+
+.button input{
+    margin-top:30px;
+    width: 200px;
+    height: 40px;
+}
+
+
+textarea{
+    font-size: 20px;
+    resize: none;
+}
+
+textarea::placeholder{
+    font-size: 20px;
 }
