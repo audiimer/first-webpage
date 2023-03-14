@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(175, 253, 231);
+    margin: -5px;
+
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(3, 255, 233);
+    margin-top: -5px;
+    padding: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+.header a.active {
+    background-color: rgba(212, 228, 225, 0.644);
+    padding: 5px 0px 5px 0px;
+    color: rgb(241, 38, 215)
+}
+
+.header a:hover {
+    background-color: rgba(212, 228, 225, 0.644);
+    padding: 5px 0px 5px 0px;
+    color: rgb(241, 38, 215);
+}
+
+.intro h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+
+
+#letters {
+    font-family: fantasy;
+}
+
+.content-a,
+.content-b {
+    margin: 100px;
+    display: grid;
+    justify-content: center;
+}
+
+#first {
+    padding-left: 10px;
+    margin-right: 1900px;
+}
+
+#second {
+    margin-left: 1200px;
+}
+
+#third {
+    padding-left: 10px;
+    margin-right: 1300px;
+}
+
+#first,
+#second,
+#third {
+    background-color: aliceblue;
+    border-bottom: solid;
+    border-radius: 15px;
+}
+
+.content-b h2 {
+    /* background-color: blue; */
+    text-align: end;
+}
+
+.content-a p,
+.content-b p {
+    background-color: rgb(255, 238, 147);
+    padding: 100px 50px 100px 50px;
+    border-top: 8px #333 dotted;
+    outline: 5px #333 solid;
+    line-height: 1.8;
+    ;
+}
+
+#content-letters {
+    font-family: monospace;
+    font-size: 30px;
+}
+
+#c-choice {
+    color: blue;
+}
+
+.outro {
+    background-color: rgb(116, 236, 214);
+    display: flex;
+    justify-content: space-around;
+    border-right: 20px rgb(21, 255, 210) inset;
+    border-left: 20px rgb(21, 255, 210) outset;
+    border-top: 20px rgb(21, 255, 210) inset;
+    border-bottom: 20px rgb(21, 255, 210) outset;
+    margin: 0px 100px 0px 100px;
+    padding: 10px 0px 10px 0px;
+}
+
+.outro img {
+    border: 10px rgb(192, 159, 97) outset;
+}
+
+.emoji p {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 3;
+    text-align: center;
+    margin-top: -10px;
+
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 70px;
+    line-height: 2px;
+}
+
+.list{
+float: right;
+    font-size: 30px;
+    line-height: 100px;
+    padding: 0px 200px 40px 0px ;
+    background-color: white;
+    border-left: solid;
+    border-right: solid;
+}
