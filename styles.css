@@ -1,3 +1,5 @@
+/* --------------------INDEX CSS--------------------------------  */
+
 body {
     background-color: rgb(175, 253, 231);
     margin: -5px;
@@ -74,7 +76,6 @@ body {
 }
 
 .content-b h2 {
-    /* background-color: blue; */
     text-align: end;
 }
 
@@ -85,7 +86,6 @@ body {
     border-top: 8px #333 dotted;
     outline: 5px #333 solid;
     line-height: 1.8;
-    ;
 }
 
 #content-letters {
@@ -106,7 +106,7 @@ body {
     border-top: 20px rgb(21, 255, 210) inset;
     border-bottom: 20px rgb(21, 255, 210) outset;
     margin: 0px 100px 0px 100px;
-    padding: 10px 0px 10px 0px;
+    padding: 60px 0px 10px 0px;
 }
 
 .outro img {
@@ -123,6 +123,8 @@ body {
     margin-top: -10px;
 
 }
+
+/* --------------------STATS CSS--------------------------------  */
 
 .container {
     display: flex;
@@ -148,6 +150,7 @@ body {
     border-right: solid;
 }
 
+/* --------------------FORM CSS--------------------------------  */
 .form {
     display: flex;
     justify-content: center;
@@ -169,44 +172,67 @@ body {
     display: grid;
     place-items: center;
     padding: 20px 200px 30px 200px;
-
 }
 
 
 
-.test input{
-
+.test input {
     width: 30px;
     height: 30px;
-
 }
 
-.test label{
-float: left;
-width: 100px;
-
+.test label {
+    float: left;
+    width: 100px;
 }
 
-.test2{
-    /* background-color: red; */
-   display: inline;
-   justify-content: center;
-   align-items: center;
-   margin-left: 40px;
+.test2 {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
 }
 
-.button input{
-    margin-top:30px;
+.button input {
+    margin-top: 30px;
     width: 200px;
     height: 40px;
 }
 
 
-textarea{
+textarea {
     font-size: 20px;
     resize: none;
 }
 
-textarea::placeholder{
+textarea::placeholder {
     font-size: 20px;
+}
+
+
+/* --------------------GALLERY CSS--------------------------------  */
+.gallery-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    column-gap: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.gallery img {
+    width: 600px;
+    height: 600px;
+    border: 10px solid black;
+
+}
+
+.gallery label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    background-color: rgb(254, 230, 165);
 }
